@@ -11,25 +11,35 @@
 
 
 
-    <script>
+    <script src="app.js">
       // <!--    1. alert(): function - gives alert dialog box-->
-      alert("This is Test alert");
+      // alert("This is Test alert");
+      // alert(123)
       // <!--    2. document.write(): function - -->
-      document.write("Hello World");
+      // document.write("<h1 style='color: Red;font-size: 100px'>I am Abhishek Pratap Singh</h1>");
       // <!--    3. console.log() function-->
-      console.log("1234")
+      // console.log("1234")
       // <!--    4. innerHTML: Properties-->
-      document.body.innerHTML = "Hello World inner HTML";
+      // document.body.innerHTML = "Hello World inner HTML";
 
 
       // datatype
-      // 1. number
-      // 2. String
-      // 3. Character
+      // 1. number - doesnot enclose with anything
+      // 2. String - enclose with double quotes
+      // 3. Character - enclose with single quotes
+
       // Javascript is dynamicly typed statement
+      //
     </script>
 </head>
 <body>
-
+<!--    <h1>-->
+<!--        hello this is my learning code-->
+<!--    </h1>-->
+    <p id="demo"></p>
+<script>
+    document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
 </body>
 </html>

@@ -13,3 +13,17 @@ function reset(buttonId){
     button.style.backgroundColor = 'inherit';
     button.style.color = 'inherit';
 }
+
+function changeHeader(color){
+    var h1=document.getElementById('h1');
+    h1.innerHTML = 'Day 8 Learn text';
+    h1.style.color = color;
+    h1.style.backgroundColor = 'pink';
+}
+
+function changeColor(eleVar){
+    // alert();
+    color = eleVar.value;
+    // alert(color);
+    changeHeader(color)
+}
